@@ -1,0 +1,57 @@
+/*img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+}*/
+/*.anim {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}*/
+
+body {
+	background-image: url("pics/FreeV.jpg");
+
+}
+.center {
+	text-align: center;
+	margin-top: 800px;
+}
+}
+#left_col {
+	text-align: center;
+	/*margin-top: 250px;*/
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+.born{
+	margin-top: 240px;
+	margin-left: 350px;
+}
+/*
+	#mid_col {
+	
+	margin-top: 250px;
+	width: 150px;
+	height: 100px;
+	float: left;
+	/*border: 10px solid red;*/
+}
+/*#right_col {
+	
+	margin-top: 250px;
+	width: 150px;
+	height: 100px;
+	float: left;*/
+	/*border: 10px solid red;*/
+
+img {
+	display: cover;
+}
