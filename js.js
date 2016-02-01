@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 // document.getElementById('play').addEventListener("click", function(){
 // 	Jukebox.play();
 // });
@@ -22,7 +24,7 @@
 // 	}
 // });
 // 	next: function() {
-// 		if(this.curentSong==this.songs.length -5){
+// 		if(this.currentSong==this.songs.length -5){
 // 			this.currentSong=0
 // 			document.getElementById(this.songs[0]).setAttribute('src', this.songs[0]),jukeBox.play();
 // 		}
@@ -109,3 +111,5 @@ $('.stopbut').on("click", function() {
 // // Jukebox.play()
 // // Jukebox.stop()
 // // Jukebox.loadsong(1)
+
+});
