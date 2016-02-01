@@ -25,16 +25,17 @@
 .playbutton {
     float: right;
 }
-.playbut {
-    margin-right: -45%;
-    margin-left: 40%;
-    margin-bottom: -50%;
-    margin-top: auto;
+/*.playbut {
+    /*margin-right: 45%;*/
+    margin-left: -160%;
+    margin-bottom: -350%;
+    margin-top: -400px;
+    margin-right: -100px;
 
-}
+}*/
 .button {
     float: right;
-    margin-top: 300px;
+    /*margin-top: 300px;*/
 }
 
 
