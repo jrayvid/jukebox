@@ -48,7 +48,10 @@ img {
 }
 
 body {
-    background: url("pics/banner.gif");
+    background: url("pics/bruce.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: gray;
     color: yellow;
     /*text-decoration: bold;*/
     font-size: 20px;
