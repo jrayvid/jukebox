@@ -55,13 +55,13 @@ $('.playbutton').on("click", function() {
 $('.stopbutton').on("click", function() {
 	$("#bruce1")[0].pause()
 });
-	
 $('.button').on("click", function() {
 	$("#bruce2")[0].play()
 });
 $('.sbutton').on("click", function() {
 	$("#bruce2")[0].pause()
-});
+});	
+
 
 $('.playbut').on("click", function() {
 	$("#bruce3")[0].play()
@@ -82,11 +82,11 @@ $('.stopbut').on("click", function() {
 // 		alert("hi schmuck");
 // 		playSong(); 
 // });
-// 	$('#stopbutton').on("click", function() {
-// 		alert("how dare you turn off Bruce!!  You schmuck!!!")
-// 		pauseSong();
+	// $('#stopbutton').on("click", function() {
+	// 	alert("how dare you turn off Bruce!!  You schmuck!!!")
+	// 	pauseSong();
 
-// 	});
+	// });
 
 
 
