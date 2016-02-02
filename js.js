@@ -56,21 +56,23 @@ $('.playbutton').on("click", function() {
 });
 $('.stopbutton').on("click", function() {
 	$("#bruce1")[0].pause()
+	$("#bruce1")[0].currentTime = 0;
 });
 $('.button').on("click", function() {
 	$("#bruce2")[0].play()
 });
 $('.sbutton').on("click", function() {
 	$("#bruce2")[0].pause()
+	$("#bruce2")[0].currentTime = 0;
 });	
 
 
-$('.playbut').on("click", function() {
-	$("#bruce3")[0].play()
-});
-$('.stopbut').on("click", function() {
-	$("#bruce3")[0].pause()
-});
+// $('.playbut').on("click", function() {
+// 	$("#bruce3")[0].play()
+// });
+// $('.stopbut').on("click", function() {
+// 	$("#bruce3")[0].pause()
+// });
 
 
 // function pauseSong() {
